@@ -1,0 +1,16 @@
+{
+    //编译器关于文件的选项
+    "files": [ //编译器需要编译的单个文件的列表。
+      "src/05tsconfig/a.ts"
+    ],
+    //编译器需要编译的文件或目录。
+    "include": [ //支持通配符
+      // "src/05tsconfig" //编译器会编译 src/05tsconfig 目录下的所有文件
+      "src/05tsconfig" //只会编译 src/05tsconfig 一级目录下的文件
+      // "src/05tsconfig/*/*" //只会编译 src/05tsconfig 二级目录下的文件
+    ],
+    //编译器需要排除的文件和文件夹：默认排除node_modules 和 声明文件
+    "exclude": [
+      "src/05tsconfig/lib"
+    ]
+  }

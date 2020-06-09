@@ -100,9 +100,9 @@ foo(s);
 
 ```shell
 //配置
-cnpm init -y
+cnpm init -y  //生成package.json
 cnpm install typescript -g
-tsc --init
+tsc --init //生成tsconfig.json
 cnpm install webpack webpack-cli webpack-dev-server -D
 cnpm install ts-loader typescript -D
 cnpm install html-webpack-plugin clean-webpack-plugin webpack-merge -D

@@ -1,0 +1,7 @@
+{
+  //通过 extends 导入基础的配置
+  "extends": "./tsconfig.base.json",
+  //可以覆盖 base 中的配置
+  "exclude": [],
+  "compileOnSave": true //保存文件的时候让编译器自动编译，但vscode中不支持，需要切换编译器
+}
